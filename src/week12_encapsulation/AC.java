@@ -4,6 +4,10 @@ package week12_encapsulation;
         private int temp;
         private String power;
 
+        public void turnOff() {
+            power = "Off";
+        }
+
         public int getTemp() {
             return temp;
         }
